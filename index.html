@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg-xml" href="/img/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Acerte o Número!</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">Acerte o Número!</h1>
+
+      <p class="range">(Entre 1 e 20)</p>
+
+      <button class="btn again">
+        Jogar <br />
+        Novamente!
+      </button>
+
+      <div class="number">?</div>
+    </header>
+
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+
+        <button class="btn check">Verificar!</button>
+      </section>
+
+      <section class="right">
+        <p class="message">Comece a jogar...</p>
+
+        <p class="label-score">💯 Pontos: <span class="score">20</span></p>
+
+        <p class="label-highscore">
+          🥇 Placar: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
